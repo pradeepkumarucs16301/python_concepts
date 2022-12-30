@@ -1,0 +1,31 @@
+# decorator in python
+def dec_func(f):
+    def greet():
+        print("Hi,Welcome")
+        f()
+        print("Thanks..!!")
+    return greet
+    
+@dec_func
+def mainfunc():
+    print("This is main function")
+    
+mainfunc()
+
+
+# generator in python
+def genfun(n):
+    i=1
+    while(i<n):
+        yield i*i
+        i+=1
+    
+x = genfun(5)
+
+for num in x:
+    print(num)
+
+# print(next(x))
+# print(next(x))
+# print(next(x))
+# print(next(x))

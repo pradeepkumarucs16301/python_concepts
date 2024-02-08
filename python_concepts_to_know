@@ -9,6 +9,8 @@ def dec_func(f):
 @dec_func
 def mainfunc():
     print("This is main function")
+
+# manifunc = dec_func(mainfunc) instead of @decorator
     
 mainfunc()
 

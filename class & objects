@@ -1,0 +1,47 @@
+#single inheritance
+
+# class father:
+#     def func1(self):
+#         print("this is father class")
+# class son(father):
+#     def func2(self):
+#         print("this is son class")
+
+# s_obj = son()
+# s_obj.func1()
+# s_obj.func2()
+
+#multiple inheritance
+
+# class father:
+#     def func1(self):
+#         print("this is father class")
+
+# class mother:
+#     def func2(self):
+#         print("this is mother class")
+
+# class son(father,mother):
+#     def func2(self):
+#         print("this is son class")
+
+# s_obj = son()
+# s_obj.func1()
+# s_obj.func2()
+
+#multilevel inheritance
+
+# class grandfather:
+#     def func1(self):
+#         print("this is grandfather class")
+# class father(grandfather):
+#     def func2(self):
+#         print("this is father class")
+# class son(father):
+#     def func3(self):
+#         print("this is son class")
+
+# s_obj = son()
+# s_obj.func1()
+
+
